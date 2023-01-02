@@ -1,11 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
+import NavBar from './components/NavBar'
+import styles from './style'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
+    <div className='bg-primary w-full overflow-hidden '>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div  className={`${styles.boxWidth}`}>
+          <NavBar />
+        </div>
+      </div>
     </div>
   )
 }
