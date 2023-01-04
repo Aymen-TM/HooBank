@@ -21,7 +21,7 @@ function NavBar() {
             <img src={toggle ? close : menu } className="object-contain h-[28px] w-[28px]" />
         </div>
         
-        <div className={`${toggle ? 'flex' : 'hidden sm:hidden'} absolute top-20 right-0 min-w-[128px] bg-black-gradient mx-4 my-2 p-6 rounded-xl`}>
+        <div className={`${toggle ? 'flex' : 'hidden'} absolute top-20 right-0 min-w-[128px] bg-black-gradient mx-4 my-2 p-6 rounded-xl`}>
             <ul className='list-none sm:hidden flex flex-col justify-end items-center space-y-10 '>
                 {
                     navLinks.map((link,index)=>(
