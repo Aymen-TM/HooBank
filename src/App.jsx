@@ -1,7 +1,8 @@
 import React from 'react'
 import NavBar from './components/NavBar'
-import { Hero } from './components'
+import { Hero, Stats } from './components'
 import styles from './style'
+
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div className={`${styles.flexCenter} ${styles.paddingY}`}>
           <Hero />
+      </div>
+      <div>
+        <Stats />
       </div>
     </div>
   )
