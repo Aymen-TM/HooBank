@@ -11,7 +11,7 @@ const FeatureCard = ({title,content,icon,index})=>(
     </div>
     <div>
       <h4 className='font-poppins font-semibold capitalize text-white text-[18px] sm:leading-[23px] leading-[28px]'>{title}</h4>
-      <p className={`${styles.paragraph}`}>{content}</p>
+      <p className={`font-poppins text-white sm:text-[16px] text-[11px] max-w-[370px] leading-[24px]`}>{content}</p>
     </div>
   </div>
 )
