@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './components/NavBar'
-import { Billing, Business, Hero, Stats } from './components'
+import { Billing, Business, CardDeal, Hero, Stats } from './components'
 import styles from './style'
 
 
@@ -23,6 +23,9 @@ function App() {
       </div>
       <div className={`${styles.paddingX}`}>
           <Billing />
+      </div>
+      <div className={`${styles.paddingX}`}>
+          <CardDeal />
       </div>
     </div>
   )
