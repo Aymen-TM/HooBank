@@ -26,7 +26,7 @@ function Hero() {
       </div>
       <div className='flex-1 relative'>
         <img src={robot} alt="robot" className='h-[100%] w-[100%] z-5'/>
-        <div className='absolute z-0 top-0 h-[35%] w-[40%] pink__gradient' />
+        <div className='absolute z-0 top-0  h-[35%] w-[40%] pink__gradient' />
         <div className='absolute z-1  h-[80%] w-[80%] rounded-full bottom-40 white__gradient' />
         <div className='absolute z-0  h-[50%] w-[50%] right-20 bottom-20 blue__gradient' />
       </div>
