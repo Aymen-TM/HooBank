@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './components/NavBar'
-import { Billing, Business, CardDeal, Hero, Stats } from './components'
+import { Billing, Business, CardDeal, Clients, Hero, Stats, Testimonials } from './components'
 import styles from './style'
 
 
@@ -26,6 +26,12 @@ function App() {
       </div>
       <div className={`${styles.paddingX}`}>
           <CardDeal />
+      </div>
+      <div className={`${styles.paddingX}`}>
+          <Testimonials />
+      </div>
+      <div className={`${styles.paddingX} ${styles.paddingY}`}>
+          <Clients />
       </div>
     </div>
   )
